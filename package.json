@@ -1,0 +1,30 @@
+{
+  "name": "mock-data-generator",
+  "version": "1.0.0",
+  "description": "Generate mock data in Swedish",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oingvarsson/mock-data-generator.git"
+  },
+  "keywords": [
+    "mock",
+    "data",
+    "json",
+    "fake",
+    "generate"
+  ],
+  "author": "Ola Ingvarsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oingvarsson/mock-data-generator/issues"
+  },
+  "homepage": "https://github.com/oingvarsson/mock-data-generator#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.0"
+  }
+}
