@@ -13,3 +13,9 @@ test('should have custom domain', () => {
   const e = email({ domain: 'test.se' });
   expect(e.endsWith('@test.se')).toBeTruthy();
 });
+
+test('should remove invalid characters', () => {
+  expect(email({ prefix: 'räksmörgås', domain: 'test.se' })).toBe('raksmorgas@test.se');
+  expect(email({ prefix: 'réksmörgås', domain: 'test.se' })).toBe('reksmorgas@test.se');
+  expect(email({ prefix: 'räk$mörgå$', domain: 'test.se' })).toBe('rak_morga_@test.se');
+})
