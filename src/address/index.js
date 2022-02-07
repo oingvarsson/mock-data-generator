@@ -1,16 +1,24 @@
+/** @module address */
 const numberGroup = require("../common/number-group");
 const randomFromArray = require("../common/random-from-array");
 const number = require("../number");
 const { streets, cities } = require("./data");
 
-const city = () => randomFromArray(cities);
 
-const streetAddress = () => `${randomFromArray(streets)} ${number(1, 102)}`;
+/**
+ * The name of a random city
+ * @returns {string}
+ */
+exports.city = () => randomFromArray(cities);
 
-const zipCode = () => `${numberGroup(3)} ${numberGroup(2)}`;
+/**
+ * A random street address
+ * @returns {string}
+ */
+exports.streetAddress = () => `${randomFromArray(streets)} ${number(1, 102)}`;
 
-module.exports = {
-  city,
-  streetAddress,
-  zipCode
-};
+/**
+ * A random five digit zip code
+ * @returns {string}
+ */
+exports.zipCode = () => `${numberGroup(3)} ${numberGroup(2)}`;

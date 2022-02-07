@@ -25,6 +25,7 @@
   "homepage": "https://github.com/oingvarsson/mock-data-generator#readme",
   "devDependencies": {
     "@types/jest": "^27.4.0",
-    "jest": "^27.5.0"
+    "jest": "^27.5.0",
+    "jsdoc": "^3.6.10"
   }
 }
