@@ -1,5 +1,5 @@
 {
-  "name": "mock-data-generator",
+  "name": "swe-mock",
   "version": "1.0.0",
   "description": "Generate mock data in Swedish",
   "main": "src/index.js",
@@ -15,7 +15,8 @@
     "data",
     "json",
     "fake",
-    "generate"
+    "generate",
+    "swedish"
   ],
   "author": "Ola Ingvarsson",
   "license": "ISC",
