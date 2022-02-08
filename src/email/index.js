@@ -4,7 +4,7 @@ const { domains } = require('./data');
 
 /**
  * A random lower case email address
- * @param {Object} options - Your prefered email details
+ * @param {Object} [options={}] - Your prefered email details
  * @param {string} [options.prefix=undefined] Customize the left side of the @-sign
  * @param {string} [options.domain=undefined] Customize the right side of the @-sign
  * @returns {string}

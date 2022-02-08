@@ -39,16 +39,16 @@ True or false
 
 <a name="email"></a>
 
-## email(options) ⇒ <code>string</code>
+## email([options]) ⇒ <code>string</code>
 A random lower case email address
 
 **Kind**: global function
 
-| Param | Type | Description |
-| --- | --- | --- |
-| options | <code>Object</code> | Your prefered email details |
-| [options.prefix] | <code>string</code> | Customize the left side of the @-sign |
-| [options.domain] | <code>string</code> | Customize the right side of the @-sign |
+| Param | Type | Default | Description |
+| --- | --- | --- | --- |
+| [options] | <code>Object</code> | <code>{}</code> | Your prefered email details |
+| [options.prefix] | <code>string</code> |  | Customize the left side of the @-sign |
+| [options.domain] | <code>string</code> |  | Customize the right side of the @-sign |
 
 <a  name="lorem"></a>
 ## lorem([n]) ⇒ <code>String</code>
