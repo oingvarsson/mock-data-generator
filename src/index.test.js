@@ -1,4 +1,4 @@
-const { address, boolean, email, name, number, phone } = require(".")
+const { address, boolean, email, lorem, name, number, phone } = require(".");
 
 test('address integration', () => {
   expect(address).toHaveProperty('streetAddress');
@@ -32,4 +32,9 @@ test('number integration', () => {
 
 test('phone integration', () => {
   expect(typeof phone).toBe('function');
+});
+
+test('lorem integration', () => {
+  expect(typeof lorem).toBe('function');
+  expect(typeof lorem()).toBe('string');
 });
