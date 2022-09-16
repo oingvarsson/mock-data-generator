@@ -3,9 +3,9 @@
 Generate mock data in Swedish
 <a name="module_address"></a>
 ## Test
-npm run test
+```npm run test```
 ## Generate docs
-npm run docs
+```npm run docs```
 
 ## Modules
 
