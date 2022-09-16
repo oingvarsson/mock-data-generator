@@ -4,6 +4,7 @@
   "description": "Generate mock data in Swedish",
   "main": "src/index.js",
   "scripts": {
+    "docs": "jsdoc2md src/**/*.js > api.md",
     "test": "jest"
   },
   "repository": {
