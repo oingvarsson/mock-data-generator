@@ -1,5 +1,6 @@
 const address = require('./address');
 const boolean = require('./boolean');
+const date = require('./date');
 const email = require('./email');
 const lorem = require('./lorem');
 const name = require('./name');
@@ -9,6 +10,7 @@ const phone = require('./phone');
 module.exports = {
   address,
   boolean,
+  date,
   email,
   lorem,
   name,

@@ -1,4 +1,13 @@
-const { address, boolean, email, lorem, name, number, phone } = require(".");
+const {
+  address,
+  boolean,
+  date,
+  email,
+  lorem,
+  name,
+  number,
+  phone
+} = require('.');
 
 test('address integration', () => {
   expect(address).toHaveProperty('streetAddress');
@@ -37,4 +46,10 @@ test('phone integration', () => {
 test('lorem integration', () => {
   expect(typeof lorem).toBe('function');
   expect(typeof lorem()).toBe('string');
+});
+
+test('date integration', () => {
+  expect(typeof date).toBe('function');
+  expect(typeof date()).toBe('object');
+  expect(date() instanceof Date).toBeTruthy();
 });

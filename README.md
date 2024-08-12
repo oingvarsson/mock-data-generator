@@ -16,6 +16,8 @@ Generate mock data in Swedish
 <dl>
 <dt><a href="#module_address">address</a></dt>
 <dd></dd>
+<dt><a href="#module_date">date</a></dt>
+<dd></dd>
 <dt><a href="#module_name">name</a></dt>
 <dd></dd>
 </dl>
@@ -70,6 +72,23 @@ A random street address
 A random five digit zip code
 
 **Kind**: static method of [<code>address</code>](#module_address)
+<a name="module_date"></a>
+
+## date
+
+<a name="module_date..randomDate"></a>
+
+### date~randomDate([start], [end]) ⇒ <code>Date</code>
+
+Random date
+
+**Kind**: inner method of [<code>date</code>](#module_date)
+
+| Param   | Type                                                            | Default                 | Description |
+| ------- | --------------------------------------------------------------- | ----------------------- | ----------- |
+| [start] | <code>Date</code> \| <code>String</code> \| <code>Number</code> | <code>0</code>          | Start date  |
+| [end]   | <code>Date</code> \| <code>String</code> \| <code>Number</code> | <code>Date.now()</code> | End date    |
+
 <a name="module_name"></a>
 
 ## name
